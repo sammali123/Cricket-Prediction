@@ -10,7 +10,7 @@ regressor = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
 
-
+#this is root
 @app.route('/')
 def home():
     title = "First Innings Score Predictor for "
